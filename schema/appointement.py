@@ -8,6 +8,7 @@ class Appointment(BaseModel):
     patient_id: int
     doctor_id: Union[int, Doctor] 
     date: str 
+    is_complete: bool = False
 
 
 class MakeAppointment(BaseModel):

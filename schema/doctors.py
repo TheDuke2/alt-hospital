@@ -12,7 +12,6 @@ class DoctorCreate(BaseModel):
     name: str
     specialization: str
     phone_number: str
-    is_available: bool = True
     
 doctors = {
     1: Doctor(id=1, name="Fat Joe", specialization='orthopedist', phone_number='09045898979'),
