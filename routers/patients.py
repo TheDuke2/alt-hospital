@@ -26,7 +26,7 @@ patient_router = APIRouter()
 @patient_router.post('/', status_code=201)
 def create_product(payload: PatientCreate):
     # get the product id
-    patient_id = len(patients) + 1
+    patient_id = len(patients) 
     new_patient = Patient(
         id=patient_id,
         name=payload.name,

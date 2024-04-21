@@ -18,5 +18,5 @@ class MakeAppointment(BaseModel):
 
 
 appointments = [
-    Appointment(id=1, patient_id=1, doctor_id=2, date='2024-04-12')
+   Appointment(id=0, patient_id=1, doctor_id=2, date='2024-04-12')
 ]

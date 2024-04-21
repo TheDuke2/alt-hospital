@@ -21,7 +21,7 @@ class PatientCreate(BaseModel):
 
 
 patients = {
-    1: Patient(id=1, name="John Doe", age=30, sex="Male", weight=65, height=50, phone="08092458875"),
-    2: Patient(id=2, name="Ayo Deji", age=62, sex="Male", weight=75, height=40, phone="08130458835"),
-    3: Patient(id=3, name="Ade Kemi", age=24, sex="Female", weight=55, height=30, phone="09092454530"),
+    0: Patient(id=0, name="John Doe", age=30, sex="Male", weight=65, height=50, phone="08092458875"),
+    1: Patient(id=1, name="Ayo Deji", age=62, sex="Male", weight=75, height=40, phone="08130458835"),
+    2: Patient(id=2, name="Ade Kemi", age=24, sex="Female", weight=55, height=30, phone="09092454530"),
 }

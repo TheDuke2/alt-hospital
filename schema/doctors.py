@@ -14,7 +14,7 @@ class DoctorCreate(BaseModel):
     phone_number: str
     
 doctors = {
-    1: Doctor(id=1, name="Fat Joe", specialization='orthopedist', phone_number='09045898979'),
-    2: Doctor(id=2, name="Ade Tiger", specialization='dermatologist', phone_number='09045898979'),
-    3: Doctor(id=3, name="Ayo Ika", specialization='cardiologist', phone_number='09045898979'),
+    0: Doctor(id=0, name="Fat Joe", specialization='orthopedist', phone_number='09045898979'),
+    1: Doctor(id=1, name="Ade Tiger", specialization='dermatologist', phone_number='09045898979'),
+    2: Doctor(id=2, name="Ayo Ika", specialization='cardiologist', phone_number='09045898979'),
 }
